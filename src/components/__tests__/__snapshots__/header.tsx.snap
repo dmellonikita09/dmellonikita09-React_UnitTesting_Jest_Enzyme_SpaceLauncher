@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders without error and matches snapshot 1`] = `
+<Styled(div)>
+  <Styled(img)
+    alt="Space dog"
+    round={true}
+    src="dog-3.png"
+  />
+  <div>
+    <h2>
+      Space Explorer
+    </h2>
+    <Styled(h5)>
+      ée
+    </Styled(h5)>
+  </div>
+</Styled(div)>
+`;

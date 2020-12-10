@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading should render correctly 1`] = `
+<Styled(Component)>
+  <ForwardRef(SvgLogo)
+    className="css-kahotv"
+  >
+    <svg
+      className="css-kahotv"
+    >
+      logo.svg
+    </svg>
+  </ForwardRef(SvgLogo)>
+</Styled(Component)>
+`;

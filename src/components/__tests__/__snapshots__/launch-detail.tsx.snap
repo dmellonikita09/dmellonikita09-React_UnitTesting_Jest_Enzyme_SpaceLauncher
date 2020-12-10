@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Launch Detail View renders without error 1`] = `
+<LaunchDetail
+  id="1"
+  rocket={
+    Object {
+      "__typename": "Rocket",
+      "id": "1",
+      "name": "that one",
+      "type": "big",
+    }
+  }
+  site="earth"
+>
+  <Styled(div)
+    style={
+      Object {
+        "backgroundImage": "url(iss.jpg)",
+      }
+    }
+  >
+    <div
+      className="css-gfwuup"
+      style={
+        Object {
+          "backgroundImage": "url(iss.jpg)",
+        }
+      }
+    >
+      <h3>
+        that one
+         (
+        big
+        )
+      </h3>
+      <h5>
+        earth
+      </h5>
+    </div>
+  </Styled(div)>
+</LaunchDetail>
+`;

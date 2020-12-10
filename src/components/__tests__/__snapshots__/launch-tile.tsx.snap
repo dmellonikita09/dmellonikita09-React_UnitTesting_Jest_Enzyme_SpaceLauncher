@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Launch Tile renders without error 1`] = `
+<LaunchTile
+  launch={
+    Object {
+      "__typename": "Launch",
+      "id": "1",
+      "isBooked": false,
+      "mission": Object {
+        "__typename": "Mission",
+        "missionPatch": null,
+        "name": "the first one",
+      },
+      "rocket": Object {
+        "__typename": "Rocket",
+        "id": "1",
+        "name": "harambe",
+      },
+    }
+  }
+>
+  <Styled(Link)
+    style={
+      Object {
+        "backgroundImage": "url(iss.jpg)",
+      }
+    }
+    to="/launch/1"
+  >
+    <Link
+      className="css-10q0vj5"
+      style={
+        Object {
+          "backgroundImage": "url(iss.jpg)",
+        }
+      }
+      to="/launch/1"
+    >
+      <Location>
+        <LocationProvider
+          history={
+            Object {
+              "_onTransitionComplete": [Function],
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "host": "localhost",
+                "hostname": "localhost",
+                "href": "http://localhost/",
+                "key": "initial",
+                "origin": "http://localhost",
+                "pathname": "/",
+                "port": "",
+                "protocol": "http:",
+                "search": "",
+                "state": null,
+              },
+              "navigate": [Function],
+              "transitioning": false,
+            }
+          }
+        >
+          <a
+            className="css-10q0vj5"
+            href="/launch/1"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundImage": "url(iss.jpg)",
+              }
+            }
+          >
+            <h3>
+              the first one
+            </h3>
+            <h5>
+              harambe
+            </h5>
+          </a>
+        </LocationProvider>
+      </Location>
+    </Link>
+  </Styled(Link)>
+</LaunchTile>
+`;

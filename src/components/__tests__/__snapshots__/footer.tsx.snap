@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer matches snapshot 1`] = `
+<Styled(footer)>
+  <Styled(div)>
+    <Styled(Link)
+      to="/"
+    >
+      <ForwardRef(SvgHome) />
+      Home
+    </Styled(Link)>
+    <Styled(Link)
+      to="/cart"
+    >
+      <ForwardRef(SvgCart) />
+      Cart
+    </Styled(Link)>
+    <Styled(Link)
+      to="/profile"
+    >
+      <ForwardRef(SvgProfile) />
+      Profile
+    </Styled(Link)>
+    <LogoutButton />
+  </Styled(div)>
+</Styled(footer)>
+`;

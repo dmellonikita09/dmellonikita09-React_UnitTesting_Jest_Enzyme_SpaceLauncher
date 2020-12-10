@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Container should contain passed page content 1`] = `
+<PageContainer>
+  <Styled(div)>
+    <div
+      className="css-k2u1cc"
+    />
+  </Styled(div)>
+  <Styled(div)>
+    <div
+      className="css-1on771l"
+    >
+      <div
+        id="page1"
+      />
+      <div
+        id="page2"
+      />
+    </div>
+  </Styled(div)>
+</PageContainer>
+`;

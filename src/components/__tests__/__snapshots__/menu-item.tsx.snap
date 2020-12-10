@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu Item should render correctly 1`] = `
+<Styled(Link)
+  to="/wow"
+>
+  <Link
+    className="css-1yu82wf"
+    to="/wow"
+  >
+    <Location>
+      <LocationProvider
+        history={
+          Object {
+            "_onTransitionComplete": [Function],
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "host": "localhost",
+              "hostname": "localhost",
+              "href": "http://localhost/",
+              "key": "initial",
+              "origin": "http://localhost",
+              "pathname": "/",
+              "port": "",
+              "protocol": "http:",
+              "search": "",
+              "state": null,
+            },
+            "navigate": [Function],
+            "transitioning": false,
+          }
+        }
+      >
+        <a
+          className="css-1yu82wf"
+          href="/wow"
+          onClick={[Function]}
+        />
+      </LocationProvider>
+    </Location>
+  </Link>
+</Styled(Link)>
+`;
